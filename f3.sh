@@ -8,9 +8,9 @@ elif [[ $age -gt 13 && $age -lt 19 ]];
 then
 	echo "teenage"
 else
-if [[ $age > 20 ]];
+if [[ $age > 60 ]];
 then
-	echo "adult"
+        echo "oldage"
 fi
 fi
 
